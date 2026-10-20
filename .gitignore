@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+solution/.cache/
+
+# data unpacked from snapshots_zip/ by the scorer on first run
+snapshots/0*/
+
+# outputs
+results/
+
+.DS_Store
